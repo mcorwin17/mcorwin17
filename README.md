@@ -6,8 +6,8 @@
 - How to reach me: phone: 803-876-0360, email: fireball2467@outlook.com
 - pronouns: He/Him
 - Fun fact: I like cats
-Link to Roblox game:
-https://www.roblox.com/games/82059022/Ro-Evolution-Soccer
+- Link to Roblox game:
+- https://www.roblox.com/games/82059022/Ro-Evolution-Soccer
 <!--
 **mcorwin17/mcorwin17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
