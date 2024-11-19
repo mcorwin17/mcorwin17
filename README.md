@@ -10,7 +10,7 @@
 
 ![Roblox Evolution Soccer](https://tr.rbxcdn.com/180DAY-050af0249a107b73228e4856e069ff49/768/432/Image/Webp/noFilter)
 
-## Languages I know
+## Things I Know
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" height="50">
@@ -18,6 +18,6 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" alt="Lua" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/JavaScript-logo.png" alt="JavaScript" height="50">
+  <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Emblem.png" alt="JavaScript" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" height="50">
 </div>
