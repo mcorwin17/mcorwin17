@@ -1,18 +1,18 @@
-## Hi there! My name is Maxwell Corwin
-# Here's some quick knowledge on me -->
+# Hi there! My name is Maxwell Corwin 
+## Here's some quick knowledge on me -->
 - I'm currently working on developing small roblox games
-- I'm currently learning C and Operating Systems
+- I'm currently learning C, Operating Systems, and Database Designing
 - I'm looking to collaborate on Roblox sport games
 - Ask me about my experience scripting and developing in Roblox
 - How to reach me: email: maxwellcorwin13@gmail.com
 - Pronouns: He/Him
-- Fun fact: I like cats
+- Fun fact: I have two cats
 - Things I have worked on in the past on roblox (Some Closed Community, others not):  Ro-Evolution Soccer, TPS Soccer, RFL Soccer.
 - Link to Ro-Evolution Soccer: [Ro-Evolution Soccer](https://www.roblox.com/games/82059022/Ro-Evolution-Soccer)
 
 ![Roblox Evolution Soccer](https://tr.rbxcdn.com/180DAY-050af0249a107b73228e4856e069ff49/768/432/Image/Webp/noFilter)
 
-## Things I Know
+# Things i've learned in the past!
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" height="50">
