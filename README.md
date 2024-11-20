@@ -1,4 +1,5 @@
-## Hi there 👋
+## Hi there! My name is Maxwell Corwin
+# Here's some quick knowledge on me -->
 - I'm currently working on developing small roblox games
 - I'm currently learning C and Operating Systems
 - I'm looking to collaborate on Roblox sport games
