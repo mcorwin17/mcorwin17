@@ -1,8 +1,8 @@
 ## Hi there 👋
-- I'm currently working on developing small roblox games.
-- I'm currently learning C
-- I'm looking to collaborate on Roblox Sports Games
-- Ask me about coding in Lua
+- I'm currently working on developing small roblox games
+- I'm currently learning C and Operating Systems
+- I'm looking to collaborate on Roblox sport games
+- Ask me about my experience scripting and developing in Roblox
 - How to reach me: email: maxwellcorwin13@gmail.com
 - Pronouns: He/Him
 - Fun fact: I like cats
