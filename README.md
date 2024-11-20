@@ -9,7 +9,7 @@
 - Fun fact: I have two cats
 - Things I have worked on in the past on roblox (Some Closed Community, others not):  Ro-Evolution Soccer, TPS Soccer, RFL Soccer.
 - Link to Ro-Evolution Soccer: [Ro-Evolution Soccer](https://www.roblox.com/games/82059022/Ro-Evolution-Soccer)
-- Link to developing group: https://www.roblox.com/groups/8029567/big-cats-inc#!/about
+- Link to developing group: [big cats inc](https://www.roblox.com/groups/8029567/big-cats-inc#!/about)
 
 ![Roblox Evolution Soccer](https://tr.rbxcdn.com/180DAY-050af0249a107b73228e4856e069ff49/768/432/Image/Webp/noFilter)
 
