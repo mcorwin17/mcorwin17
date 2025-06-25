@@ -1,6 +1,5 @@
 # Hello, I'm Maxwell.
 ## Info
-- I'm looking to collaborate on Roblox sport games
 - How to reach me: email: maxcorwin86@gmail.com
 - Things I have worked on in the past on roblox (Some Closed Community, others not):  Ro-Evolution Soccer, TPS Soccer, RFL Soccer.
 - Link to Ro-Evolution Soccer: [Ro-Evolution Soccer](https://www.roblox.com/games/82059022/Ro-Evolution-Soccer)
@@ -8,7 +7,7 @@
 
 ![Roblox Evolution Soccer](https://tr.rbxcdn.com/180DAY-050af0249a107b73228e4856e069ff49/768/432/Image/Webp/noFilter)
 
-# Things I've learned in the past + more 
+# Thing's I know
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" height="50">
