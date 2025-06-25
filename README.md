@@ -7,7 +7,7 @@
 
 ![Roblox Evolution Soccer](https://tr.rbxcdn.com/180DAY-050af0249a107b73228e4856e069ff49/768/432/Image/Webp/noFilter)
 
-# Thing's I know
+# Things I know
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" height="50">
