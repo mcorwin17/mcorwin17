@@ -10,9 +10,7 @@ Simulation engines, backend systems, full stack products. Most of my work lands 
 
 Testing was the hard part, since a kernel will happily tell you it works. So the checks all run from outside the VM, screendumps for pixels and packet captures for checksums.
 
-**[SmartRoute](https://github.com/mcorwin17/KTP-Hackathon)** &nbsp;·&nbsp; regex-first extraction for messy inspector emails, LLM only where the regex gives up. 92-97% exact match against a 500 message eval set. Built at a hackathon, hence the repo name.
-
-**[Reading Assistant](https://github.com/mcorwin17/readerhelper)** &nbsp;·&nbsp; a Chrome extension that answers questions about whatever page you're on and cites the spans it used. Not on the store, you load it unpacked.
+**[usc-seat-watcher](https://github.com/mcorwin17/usc-seat-watcher)** &nbsp;·&nbsp; polls Banner every 15 minutes for open seats and files a GitHub issue when one opens, since GitHub emails you about your own issues and that beat setting up mail. Ran four days, got the seat, turned it off.
 
 ### before
 
