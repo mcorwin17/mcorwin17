@@ -1,39 +1,40 @@
 # Maxwell Corwin
 
-CS student at the University of South Carolina, class of 2028. Co-founder and lead engineer at **Bloxnetic** (sold). XR developer at USC's Emergent Information Technology Lab.
+CS at the University of South Carolina, class of 2028. Co-founder and lead engineer at Bloxnetic (sold). XR developer at USC's Emergent Information Technology Lab.
 
-I build simulation engines, backend systems, and full stack products. Most of my work lands somewhere between games and data.
+Simulation engines, backend systems, full stack products. Most of my work lands somewhere between games and data.
 
-## Code you can read
+### projects
 
-- **[MaxOS](https://github.com/mcorwin17/MaxOS)** is an x86 operating system written from scratch in assembly and C. It boots from its own 512-byte boot sector into a userspace shell, with everything in between built by hand: paging, preemptive scheduling across 4 CPUs, ring-3 processes with fork/exec/wait and copy-on-write, signals, pipes, a FAT16 filesystem it can read, write and format, a TCP/IP stack that works against real hosts, a 1024x768 framebuffer, and AC97 audio. About 9k lines, 20 automated test targets.
+**[MaxOS](https://github.com/mcorwin17/MaxOS)** — x86 operating system, boot sector up. Paging, preemptive scheduling across 4 CPUs, ring-3 processes with fork/exec and copy-on-write, FAT16, pipes, TCP/IP, framebuffer, AC97 audio. Boots into its own userspace shell. ~9k lines, 20 test targets.
 
-  My favorite part is that nothing grades its own homework: pixels get read out of QEMU screendumps, TCP checksums get recomputed from packet captures, disk writes get parsed out of the raw image, and audio gets measured from the rendered waveform.
+Everything is checked from outside the VM. Pixels come out of QEMU screendumps, TCP checksums get recomputed from packet captures. The guest doesn't grade its own work.
 
-- **[SmartRoute](https://github.com/mcorwin17/KTP-Hackathon)** turns messy inspector emails and OCR'd attachments into normalized records with action routing, using regex first and an LLM only where regex runs out. Scores 92 to 97% exact match on key fields against a 500 message eval harness. FastAPI, Pydantic, pytest, CI. Built at KTP's hackathon, which is why the repo has that name.
+```c
+/* This was missing for months. It went unnoticed because the RAM
+ * underneath happened to be zero, until an array landed past the end
+ * of the loaded image and came up holding 0xf000fea5. */
+for (char* p = bss_start; p < bss_end; ++p) *p = 0;
+```
 
-- **[Reading Assistant](https://github.com/mcorwin17/readerhelper)** is a Chrome extension that answers questions about the page you're reading, backed by OpenAI or a local Ollama model.
+**[SmartRoute](https://github.com/mcorwin17/KTP-Hackathon)** — extraction engine for inspector emails and OCR'd attachments. Regex first, LLM only where regex gives up. 92-97% exact match on a 500 message eval set. FastAPI, Pydantic, CI.
 
-## Shipped
+**[Reading Assistant](https://github.com/mcorwin17/readerhelper)** — Chrome extension that answers questions about the page you're on, and cites the spans it pulled from. OpenAI or a local Ollama model.
 
-- **[Bloxnetic](https://www.bloxnetic.com)** was an AI market intelligence SaaS for Roblox developers, with 300+ registered. It ran Monte Carlo campaign forecasts against 100k simulated player personas. Next.js, FastAPI, PostgreSQL, Redis, Stripe. We sold it, so the live site isn't mine anymore.
+### shipped
 
-- **Roblox live ops, 2017 to 2022.** Co-led development on titles with over 100M combined visits, including [Ro Evolution Soccer](https://www.roblox.com/games/82059022/Ro-Evolution-Soccer) (12M+ visits, 4k+ MAU, 2k+ peak concurrents).
+**[Bloxnetic](https://www.bloxnetic.com)** — AI market intelligence for Roblox developers. Monte Carlo campaign forecasts against 100k simulated player personas. 300+ registered. Next.js, FastAPI, Postgres, Redis, Stripe. Sold.
 
-## In progress
+**Roblox live ops, 2017 to 2022** — co-led titles totalling 100M+ visits. [Ro Evolution Soccer](https://www.roblox.com/games/82059022/Ro-Evolution-Soccer) did 12M visits, 4k MAU, 2k peak concurrents.
 
-- **Football manager simulation engine** (Luau, private repo). A seeded, server authoritative match engine with an expected goals model. Every match can be replayed deterministically from a single RNG seed. About 50k lines across 22 services.
+### now
 
-- **XR research at EITL.** An educational VR simulation on Roblox with a privacy focused learning analytics pipeline (Luau and Python over Open Cloud), built for a provost funded study.
+**Football manager simulation engine.** Seeded and server authoritative, so any match replays exactly from one RNG seed. Expected goals model. ~50k lines, 22 services. Private repo.
 
-## Stack
+**XR research at EITL.** Educational VR sim on Roblox with a privacy-focused learning analytics pipeline, built for a provost-funded study.
 
-`Python` `TypeScript/JavaScript` `Luau/Lua` `C` `C++` `x86 assembly` `SQL`
+---
 
-`React` `Next.js` `Node.js` `FastAPI` `PostgreSQL` `Redis` `Prisma`
-
-`Docker` `pytest` `QEMU` `Rojo/Lune`
-
-## Contact
+`python` `typescript` `luau` `c` `x86 asm` `sql` · `fastapi` `next.js` `postgres` `redis` · `docker` `qemu` `pytest`
 
 maxcorwin86@gmail.com
