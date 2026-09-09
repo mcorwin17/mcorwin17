@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 432" width="880" height="432" role="img" aria-label="MaxOS boot log: maxwell corwin, cs at south carolina">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 13.5px; }
+    .d { fill: #6e7681 }
+    .m { fill: #58a6ff }
+    .t { fill: #c9d1d9 }
+    .g { fill: #3fb950 }
+    .w { fill: #f0f6fc; font-weight: 600 }
+    .ln { opacity: 0; animation: fin .1s ease-out forwards }
+    @keyframes fin { to { opacity: 1 } }
+    @keyframes bl { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+    .cur { opacity: 0; animation: bl 1.06s steps(1) 1.5s infinite }
+  </style>
+  <rect x=".5" y=".5" width="879" height="431" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="24" cy="20" r="5.5" fill="#ff5f57"/>
+  <circle cx="43" cy="20" r="5.5" fill="#febc2e"/>
+  <circle cx="62" cy="20" r="5.5" fill="#28c840"/>
+  <text x="440" y="25" class="d" text-anchor="middle">MaxOS — COM1</text>
+  <line x1="0" y1="40" x2="880" y2="40" stroke="#30363d"/>
+
+  <text x="26" y="72"  class="ln w" style="animation-delay:.05s">MaxOS 0.1</text>
+  <text x="26" y="94"  class="ln t" style="animation-delay:.13s"><tspan class="m">gdt:</tspan> kernel descriptors loaded</text>
+  <text x="26" y="116" class="ln t" style="animation-delay:.21s"><tspan class="m">idt:</tspan> exceptions + IRQs installed, PIC remapped to 0x20</text>
+  <text x="26" y="138" class="ln t" style="animation-delay:.29s"><tspan class="m">pit:</tspan> 100Hz on IRQ0</text>
+  <text x="26" y="160" class="ln t" style="animation-delay:.37s"><tspan class="m">smp:</tspan> 4 CPUs in the MADT, lapic at 0xfee00000</text>
+  <text x="26" y="182" class="ln t" style="animation-delay:.45s"><tspan class="m">smp:</tspan> CPU 1 (lapic 1) <tspan class="g">online</tspan></text>
+  <text x="26" y="204" class="ln t" style="animation-delay:.53s"><tspan class="m">smp:</tspan> CPU 2 (lapic 2) <tspan class="g">online</tspan></text>
+  <text x="26" y="226" class="ln t" style="animation-delay:.61s"><tspan class="m">smp:</tspan> CPU 3 (lapic 3) <tspan class="g">online</tspan></text>
+  <text x="26" y="248" class="ln t" style="animation-delay:.69s"><tspan class="m">net:</tspan> 10.0.2.15 up on ne2000</text>
+  <text x="26" y="270" class="ln t" style="animation-delay:.77s"><tspan class="m">fb:</tspan> 1024x768, 128x48 cells, 8x16 glyphs</text>
+  <text x="26" y="292" class="ln t" style="animation-delay:.85s"><tspan class="m">ac97:</tspan> 48000 Hz 2-channel</text>
+  <text x="26" y="314" class="ln t" style="animation-delay:.93s"><tspan class="m">kernel_main:</tspan> init is /BIN/SH.BIN</text>
+  <text x="26" y="336" class="ln t" style="animation-delay:1.01s"><tspan class="m">sh:</tspan> <tspan class="g">ready</tspan></text>
+
+  <text x="26" y="376" class="ln t" style="animation-delay:1.2s"><tspan class="d">$</tspan> whoami</text>
+  <text x="26" y="398" class="ln w" style="animation-delay:1.42s">maxwell corwin<tspan class="d">, cs @ south carolina, class of 2028</tspan></text>
+  <rect x="26" y="386" width="8" height="15" fill="#c9d1d9" class="cur"/>
+</svg>
