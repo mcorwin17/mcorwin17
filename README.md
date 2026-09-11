@@ -2,27 +2,39 @@
   <img src="https://raw.githubusercontent.com/mcorwin17/mcorwin17/main/boot.svg" alt="MaxOS boot log - maxwell corwin, cs @ south carolina" width="880">
 </p>
 
-Simulation engines, backend systems, full stack products. Most of my work lands somewhere between games and data. Built and sold [Bloxnetic](https://www.bloxnetic.com), XR stuff at USC's Emergent Information Technology Lab.
+I'm Maxwell, a computer science student at the University of South Carolina. I build backend systems, simulation engines, and web apps. I co-founded and sold [Bloxnetic](https://www.bloxnetic.com), and I currently work on VR education at USC's Emergent Information Technology Lab.
 
-### projects
+### Projects
 
-**[MaxOS](https://github.com/mcorwin17/MaxOS)** &nbsp;·&nbsp; that boot log up there is real output from it. Started as a class project at GSSM and I just kept going. Boots off its own 512 byte sector into a userspace shell that it loads through its own FAT16 driver. Paging, 4 CPUs, fork/exec with copy-on-write, signals, pipes, TCP/IP, a framebuffer, sound. About 9k lines.
+#### [MaxOS](https://github.com/mcorwin17/MaxOS)
 
-Testing was the hard part, since a kernel will happily tell you it works. So the checks all run from outside the VM, screendumps for pixels and packet captures for checksums.
+A 32-bit x86 operating system written in C and assembly. It started as a class project at GSSM, and I kept going. The boot log above is real output: MaxOS boots from its own 512-byte boot sector and loads a userspace shell through its own FAT16 driver.
 
-**[usc-seat-watcher](https://github.com/mcorwin17/usc-seat-watcher)** &nbsp;·&nbsp; polls Banner every 15 minutes for open seats and files a GitHub issue when one opens, since GitHub emails you about your own issues and that beat setting up mail. Ran four days, got the seat, turned it off.
+It supports paging, scheduling across four CPUs, fork/exec with copy-on-write, signals, pipes, TCP/IP, graphics, and audio. Kernel threads run across all four CPUs; user processes currently run on CPU 0.
 
-### before
+Testing became a project of its own. I built checks outside the VM to inspect disk writes, verify packet checksums, and measure rendered pixels and audio output. A success message from the kernel only tells you so much.
 
-**[Bloxnetic](https://www.bloxnetic.com)** &nbsp;·&nbsp; AI market intelligence for Roblox developers. Monte Carlo campaign forecasts against 100k simulated players, 300+ registered. Sold it, didn't really feel like pursuing it.
+#### [USC Seat Watcher](https://github.com/mcorwin17/usc-seat-watcher)
 
-**Roblox live ops, 2017 to 2022** &nbsp;·&nbsp; got into it through a game called Old Football Legends and ended up co-leading titles that did 100M+ visits between them. Biggest was [Ro Evolution Soccer](https://www.roblox.com/games/82059022/Ro-Evolution-Soccer) at 12M.
+A small tool that polls Banner every 15 minutes for open course seats and creates a GitHub issue when one opens. GitHub notifications handled the email delivery. Ran it for four days, got the seat, turned it off.
 
-### right now
+### Previous work
 
-A football manager simulation engine in Luau, so apparently I never stopped making football games. Seeded and server authoritative, any match replays exactly from one RNG seed. Around 50k lines across 22 services, private repo.
+#### [Bloxnetic](https://www.bloxnetic.com) · Co-founder & primary engineer
 
-VR education sim at EITL with a privacy focused learning analytics pipeline, built for a provost funded study.
+A market research and advertising planning platform for Roblox developers. It tracked roughly 1,000 live games and used Monte Carlo simulations of 100,000 player personas to estimate ad click-through rates and revenue. Developers could also use AI tools to generate advertising creative.
+
+I built the Next.js/TypeScript frontend, Python/FastAPI backend, forecasting engines, game discovery crawlers, and Stripe subscription and credit billing. The platform had 10–20 paying customers per month before I sold it.
+
+#### Roblox game development & live operations · 2017–2026
+
+I started with Old Football Legends and went on to co-lead development and live operations for multiplayer games with more than 100 million combined visits. These included [Ro Evolution Soccer](https://www.roblox.com/games/82059022/Ro-Evolution-Soccer), which reached 12 million visits. The work included gameplay updates, player data persistence, and production fixes during peaks of more than 2,000 concurrent players.
+
+### Current work
+
+**Football manager simulation engine** — A Luau backend with a seeded match simulator, asynchronous PvP, and 22 server-side services. Matches can be replayed from the same random seed. The repository is private. Apparently, I haven't stopped making football games.
+
+**VR education at EITL** — A learning simulation for a provost-funded study, with server-authoritative quizzes, VR interfaces, and a research analytics pipeline that hashes participant identifiers before export.
 
 <sub>python · typescript · luau · c · x86 asm · sql · fastapi · next.js · postgres · redis · docker · qemu · pytest</sub>
 
