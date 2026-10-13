@@ -42,7 +42,7 @@ I co-led development and live operations for Roblox games with **100M+ combined 
 
 ## Current work
 
-**Developer at Shikari** — ecommerce software, with work on IMAP email integration, UI, and application performance.
+**Developer at Shikari** — an ecommerce automation platform for consumers and businesses.
 
 **XR Developer at USC's Emergent Information Technology Lab** — a VR learning simulation for a provost-funded study, including server-authoritative quizzes, motion-controller interactions, and research analytics with hashed participant identifiers.
 
