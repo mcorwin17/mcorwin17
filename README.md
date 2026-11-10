@@ -4,7 +4,7 @@
   </a>
 </p>
 
-I'm **Maxwell Corwin**, a computer science student at the **University of South Carolina, class of 2028**. I build operating systems, backend services, and multiplayer games. I co-founded and sold **Bloxnetic**, a software business serving Roblox developers.
+I'm **Maxwell Corwin**, a computer science student at the **University of South Carolina, class of 2028**. I build operating systems, backend services, and multiplayer games. I co-founded **Bloxnetic**, a software platform serving Roblox developers.
 
 My work spans kernel internals, products with paying customers, and live games with thousands of concurrent players. I care about understanding how a system works—and having a way to verify that it does.
 
@@ -23,10 +23,10 @@ A 32-bit x86 OS with its own bootloader, kernel, filesystem, and userspace. It b
 
 [Architecture, limitations, and build instructions →](https://github.com/mcorwin17/MaxOS#readme)
 
-### [Bloxnetic — building and selling a software product](https://www.bloxnetic.com)
+### [Bloxnetic — a full-stack software product](https://www.bloxnetic.com)
 **Co-founder & primary engineer · TypeScript · Next.js · Python · FastAPI**
 
-A market-intelligence and advertising-planning platform for Roblox developers. I built the application across frontend, backend, data collection, forecasting, and billing, then sold the business.
+A market-intelligence and advertising-planning platform for Roblox developers. I built the application across frontend, backend, data collection, forecasting, and billing. One of Bloxnetic’s services was later sold; the platform itself was not.
 
 - Served **500+ registered users**, **200+ active users**, and **10–20 paying customers per month**.
 - Tracked approximately **1,000 live games** and built Monte Carlo forecasts for advertising CTR and revenue using **100,000 simulated player personas**.
